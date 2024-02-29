@@ -1,0 +1,32 @@
+.mainContainer {
+  display: flex;
+  justify-content: center;
+}
+.containerInner {
+  border: 1px solid black;
+  padding: 10px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  .inputContainer {
+    display: flex;
+    column-gap: 10px;
+  }
+}
+
+.pageSelectorContainer {
+  display: flex;
+  column-gap: 10px;
+  button {
+    padding: 3px 10px;
+  }
+}
+
+.functionContainer {
+  display: flex;
+  column-gap: 15px;
+  label {
+    margin-right: 5px
+  }
+}
